@@ -1,0 +1,74 @@
+.inner_boxes img {
+    width: 100%;
+    border-radius: 9px;
+}
+.category_boxes {
+    margin-top: 50px;
+}
+.inner_boxes {
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid thistle;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.inner_boxes a, span{
+    color: gray;
+    text-decoration: none;
+}
+.inner_boxes p {
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+.category_boxes {
+    padding-bottom: 40px;
+}
+.editIcon{
+    width: 20px !important;
+   cursor: pointer;
+}
+.deleteIcon{
+    width: 35px !important;
+   cursor: pointer;
+}
+
+
+.box{
+    border:1px solid thistle;
+    padding:20px;
+    width: 40%;
+}
+.textarea{
+    width: 100%;
+}
+
+.btn_add {
+    background: #aeca73;
+    width: 120px;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;        
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn_add:hover {
+    background: #aeca73;
+    color: #fff;
+}
+
+.btn_long {
+    background: #aeca73;
+    width: 30%;
+    padding: 5px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;        
+}

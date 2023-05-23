@@ -1,0 +1,45 @@
+.gray_btn img {
+    width: 17px;
+    margin-top: 10px;
+}
+
+.gray_btn {
+    background: #77777733;
+    border-radius: 100px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.btn_primary,
+.btn_primary:hover {
+    background: #aeca73;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 32px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-right: 20px;
+    outline: none;
+    border: 0;
+}
+
+.title_flex h1 {
+    color: #333333;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title_btns {
+    display: flex;
+    align-items: center;
+}
+
+.title_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
